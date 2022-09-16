@@ -2,9 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
     padding-top: 100px;
+    
 }
-
+body{
+    padding: 10px;
+}
 
 main{
 background-color: rgb(255, 255, 255);
@@ -23,6 +27,7 @@ align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: rgb(48, 48, 48);
+    text-align: center;
 }
 .text-section{
     display: flex;
@@ -79,3 +84,11 @@ align-items: center;
     padding: 8px;
 }
 
+@media (max-width:700px) {
+    #text{
+        width: 15rem;
+    }
+    #voice{
+        width: 15rem;
+    }
+}
